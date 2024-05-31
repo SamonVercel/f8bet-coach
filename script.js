@@ -32,6 +32,4 @@ var message = document.querySelector(".message");
 
 closeMessage.addEventListener("click", () => {
   message.style.display = "none";
-
-  console.log("Close");
 });
